@@ -23,7 +23,7 @@ public class Questao1 {
 
 
         float _Dias;
-            _Dias = _Ano * 365 + _Mes ;
+            _Dias = (_Ano * 365) + _Mes ;
 
             System.out.println ( _nome + " tem " + _Ano + " anos e " + _Mes + "meses =" + _Dias  );
 
